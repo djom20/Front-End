@@ -1,0 +1,123 @@
+@font-face { font-family: 'HelveticaNeue'; src: url('../font/HelveticaNeue.ttf') format ('ttf'); }
+
+#cita>div{ margin-left:1%; width:6em; }
+#cita>p{ font-family: Arial; font-size:16px; margin-left:0; text-align:justify; }
+#contenido>article{	-moz-background-size:100%; -webkit-background-size:100%; background-image:url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/frontend/content/line.png'); background-position:100% 100%; background-repeat:no-repeat; background-size:100%; margin-bottom:4%; padding-bottom:4%; }
+#nosotros>section>p>strong{ color:#000; }
+#nosotros>section>p{ text-align:justify; }
+#select{ width:13em; }
+#sprite_guia{ width:70%; }
+#subfooter>small{ font-size:11px; font-weight:bold; }
+#subfooter{ text-align:right; }
+.carousel-control.right{ right:-30px !important; }
+.carousel-control{ background:transparent !important; border:0 !important; margin-top:-9px !important; }
+.device img{ margin-left:5%; margin-top:17%; width :100%; }
+.linkpublicidad{ -moz-background-size:contain; -webkit-background-size:contain; background-color:transparent; background-image:url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/frontend/content/button.png'); background-repeat:no-repeat; background-size:contain; border:0; height:8em; margin-left:6%; width:11em; }
+.linkrojo:hover{ color:#cc0000; text-decoration:none; }
+.linkrojo{ color:#cc0000; }
+.navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus{ -webkit-box-shadow:0 0 0 0 !important; background-color:#FFF !important; box-shadow:0 0 0 0 !important; }
+.navbar .nav>.active{ background-image:url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/frontend/menu/menu_hover.png'); background-position:40% 100%; background-repeat:no-repeat; height:3.7em; }
+.navbar .nav>li>a,.navbar .nav>li>a:hover,article>div>h3{ text-transform:uppercase; }
+.navbar .nav>li>a{ padding:5px 5px 5px !important; }
+.navbar .nav>li{font-family:Sakkal Majalla; font-size:18px; font-weight:bold; }
+.navbar .nav{margin-top:8% !important; }
+.navbar-inner{ -webkit-box-shadow:0 0 0 0 !important; background-color:#FFF !important; background-image:none !important; border:0 !important; border-radius:0 !important; box-shadow:0 0 0 0 !important; min-height:40px !important; padding-left:20px !important; padding-right:20px !important; }
+.navbar{ margin-bottom:0 !important; }
+.next{ margin:0; margin-left:-3.5% !important; width:13em !important; }
+.publicidad img{ margin-left:11%; margin-top:17%; }
+.sprite{ margin-left:0% !important; width:3em !important; }
+address{ font-family:Arial; font-size:16px; }
+article>div>h3{ font-family:Sakkal Majalla; font-size:48px; font-weight:bold; }
+article>div>p{ font-family:Arial; font-size:16px; text-align:justify; }
+body{ -ms-overflow-x:hidden; overflow-x:hidden; }
+footer>section>div>h4{ margin-bottom:0; text-transform:uppercase; }
+footer>section>div>p{ margin-bottom:0; font-size:11px; }
+footer>section>div{ font-family:Arial; font-size:16px; }
+footer>section{ height:8em; padding-top:3%; }
+footer{ background-image:url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/frontend/footer/footer.jpg'); background-repeat:no-repeat; -webkit-background-size:cover; -moz-background-size:cover; background-size:cover; color:#fff; margin-left:-15%; margin-top:-6%; padding-left:15%; padding-right:18%; }
+header{-moz-background-size:100% 100%; -webkit-background-size:100% 100%; background-image:url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/frontend/content/slide.png'); background-repeat:no-repeat; background-size:100% 100%; height:36em; margin-left:-16%; margin-top:-1.8%; padding-left:18%; padding-right:19%; }
+
+/* --- Main menu --- */
+@media (min-width: 900px) and (max-width: 1110px) {
+	.navbar .nav{ margin-top:0% !important; }
+}
+
+/* --- Contain menu --- */
+@media (min-width: 550px) and (max-width: 767px) {
+	#contenido{ margin-top:46% !important; }
+}
+
+/* --- Active menu --- */
+@media (max-width: 979px) {
+	.navbar .nav>.active{ background-image:none; height:2.4em; }
+}
+
+/* --- Social Phones --- */
+@media (max-width: 350px) {
+	#sprite_guia{ width:33% !important; }
+	footer>section{ padding-top:14% !important; }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 919px) {
+	#sprite_guia{ float:left; text-align:right; width:51%; }
+}
+@media (min-width: 920px) and (max-width: 1000px) {
+	#sprite_guia{ float:left; text-align:right; width:59%; }
+}
+@media (min-width: 1000px) and (max-width: 1250px) {
+	#sprite_guia{ float:left; text-align:right; width:63%; }
+}
+
+/* --- Trabajamos Tablet --- */
+@media (min-width: 940px) and (max-width: 979px) {
+	#select2{ width:10em; }
+	.next2{ margin:0; margin-left:-3.5% !important; width:10em !important; }
+}
+@media (min-width: 850px) and (max-width: 939px) {
+	#select2{width:9em; }
+	.next2{ margin:0; margin-left:-3.5% !important; width:9em !important; }
+}
+@media (min-width: 767px) and (max-width: 849px) {
+	#select2{ width:8em; }
+	.next2{ margin:0; margin-left:-3.5% !important; width:8em !important; }
+}
+
+/* --- Trabajamos --- */
+@media (min-width: 979px) and (max-width: 1030px) {
+	#select{ width:10em; }
+	.next{ width:10em !important; }
+}
+@media (min-width: 1031px) and (max-width: 1150px) {
+	#select{ width:11em; }
+	.next{ width:11em !important; }
+}
+@media (min-width: 1151px) and (max-width: 1200px) {
+	#select{ width:12em; }
+	.next{ width:12em !important; }
+}
+
+/* --- Comillas --- */
+@media (min-width: 768px) and (max-width: 1100px) {
+	#cita>div{ width:4em; }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#contenido>article>div>h3{ color: #999999; }
+	#contenido>article{ text-align:center; }
+	#contenido{ -moz-background-size:100%; -webkit-background-size:100%; background-image:url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/frontend/content/line.png'); background-position:100% 0%; background-repeat:no-repeat; background-size:100%; margin-top:35%; padding-top:7%; }
+	#logo{ width:4em; } a.brand{ padding-top:0; }
+	#sprite_guia{ float:left; text-align:right; width:40%; }
+	#subfooter{ text-align:center; }
+	.carousel-control { background:#222 !important; border:3px solid #fff !important; margin-top:-9px !important; top:90% !important; }
+	.carousel-control.right { right:2% !important; }
+	.desc2{ text-align:center; margin-top:5%; }
+	.device img{ margin-left:0%; margin-top:2%; }
+	.plus{ text-align:center; }
+	.sprite{ float:left !important; }
+	a.left{ left:0px !important; }
+	footer>section{ height:25em; padding-top:5%; }
+	footer{ text-align:center; }
+	header{ height:19em; -moz-background-size:100% 130%; -webkit-background-size:100% 130%; background-size:100% 130%; }
+}
